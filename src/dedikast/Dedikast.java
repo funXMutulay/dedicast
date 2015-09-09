@@ -13,7 +13,7 @@ import javafx.stage.Stage;
 
 /**
  *
- * @author macbookpro
+ * @author FunXMutulaI
  */
 public class Dedikast extends Application {
     
