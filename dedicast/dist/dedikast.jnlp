@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="dedikast.jnlp">
+  <information>
+    <title>dedikast</title>
+    <vendor>macbookpro</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="dedikast.jar" size="278114" download="eager" />
+    <jar href="lib/common-util-1.0.4.jar" size="35618" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="dedikast" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="dedikast.Dedikast"  name="dedikast" />
+  <update check="always"/>
+</jnlp>
